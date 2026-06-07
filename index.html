@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="朝陽科技大學視覺傳達設計系">
+    <meta name="description" content="朝陽科大視傳系設計人格 | IP角色創作競賽：「潮派 IP 由你來 P」官方網站。歡迎全台高中職與大專院校學生踴躍參賽，發掘能代表朝陽視傳系精神的角色形象，總獎金高達 33 萬元！">
+    <title>潮派 IP 由你來 P｜朝陽科大視傳系設計人格 IP 角色創作競賽</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Lucide Icons Script -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <!-- 頂部導覽列 Header -->
+    <header class="main-header">
+        <div class="header-container">
+            <a href="#" class="logo-area">
+                <span class="logo-accent">CYUT</span>
+                <span class="logo-divider"></span>
+                <span class="logo-text">視覺傳達設計系</span>
+            </a>
+            <nav class="header-nav">
+                <a href="#intro" class="nav-link">競賽簡介</a>
+                <a href="#personas" class="nav-link">設計人格</a>
+                <a href="#rules" class="nav-link">參賽辦法</a>
+                <a href="#prizes" class="nav-link">大賽獎項</a>
+                <a href="#register-vote" class="nav-btn-primary">馬上報名</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 競賽主視覺與標題 Banner & Title -->
+    <section class="hero-section">
+        <div class="hero-banner-container">
+            <img src="assets/hero_banner.png" alt="潮派 IP 由你來 P 主視覺" class="hero-banner-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-info-container">
+            <div class="hero-info-content">
+                <div class="status-tags">
+                    <span class="status-badge active">徵件中</span>
+                    <span class="category-badge">角色設計</span>
+                </div>
+                <h1 class="contest-title">設計人格 ｜ IP 角色創作競賽</h1>
+                <p class="contest-subtitle">「潮派 IP 由你來 P」— 讓每個設計，都擁有自己的 IP 靈魂</p>
+                
+                <div class="meta-stats">
+                    <div class="stat-item">
+                        <i data-lucide="eye" class="icon-stat"></i>
+                        <span>瀏覽人次：<strong id="view-count">12,485</strong></span>
+                    </div>
+                    <div class="stat-item">
+                        <i data-lucide="users" class="icon-stat"></i>
+                        <span>關注人數：<strong id="follow-count">843</strong></span>
+                    </div>
+                    <div class="stat-item">
+                        <i data-lucide="award" class="icon-stat"></i>
+                        <span>總獎金：<strong class="text-neon-yellow">NT$ 330,000</strong></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 雙欄式主內容區 Main Container -->
+    <div class="main-container">
+        <div class="layout-wrapper">
+            
+            <!-- 左側主要內容區 Left Column -->
+            <main class="left-column">
+                
+                <!-- 橫向 Sticky 導覽選單 Tabs -->
+                <nav class="sticky-tabs" id="sticky-tabs">
+                    <a href="#intro" class="tab-item active">大賽簡介</a>
+                    <a href="#personas" class="tab-item">五大設計人格</a>
+                    <a href="#rules" class="tab-item">參賽辦法</a>
+                    <a href="#timeline-sec" class="tab-item">大賽時程</a>
+                    <a href="#prizes" class="tab-item">大賽獎項</a>
+                    <a href="#rules-notes" class="tab-item">注意事項</a>
+                    <a href="#register-vote" class="tab-item highlight-tab">互動與報名</a>
+                </nav>
+
+                <div class="content-sections">
+                    
+                    <!-- 1. 大賽簡介 -->
+                    <section id="intro" class="content-section card-panel">
+                        <h2 class="section-title"><i data-lucide="info" class="title-icon"></i>大賽簡介</h2>
+                        <div class="section-body">
+                            <h3>前言</h3>
+                            <p>「設計人格｜IP 角色創作競賽」以推廣朝陽視傳系為核心，透過舉辦視傳系 IP 角色設計競賽，邀請高中職學生與大專院校生共同參與。活動以線上投稿平台為主要參賽管道，結合線下校內展覽、人氣打卡區與頒獎典禮，打造兼具創意競賽與品牌推廣之整合行銷活動，形成完整的品牌推廣機制。藉由參賽者的創作品，發掘能代表朝陽視傳系精神的角色形象，進一步建立系所專屬 IP 角色，作為未來宣傳與文創延伸的重要核心資產。</p>
+                            
+                            <h3>動機與目的</h3>
+                            <p>隨著設計教育的普及與文創產業的興盛，角色 IP 已成為品牌形象與塑造傳遞的重要媒介。朝陽視傳系長期致力於培養具創意與實踐力的設計人才，目前尚未建立具代表性的角色形象，使得宣傳多停留在單次視覺作品，缺乏延續性與記憶點。</p>
+                            <p>因此，本企劃透過競賽形式推動校系形象，吸引目標族群參與創作，深入了解視傳系的專業特色與創意精神理念，同時藉由活動曝光與互動，提升系所知名度與招生吸引力，並為未來的文創商品開發奠定基礎。</p>
+                            
+                            <h3>現有問題與解決方案</h3>
+                            <p>目前朝陽視傳系在對外推廣上仍缺乏具高度辨識度的代表性 IP 角色，使整體品牌形象較為分散，難以形成一致且鮮明的視覺記憶。現行招生與宣傳方式多以靜態資訊呈現為主，互動性與參與感不足，較難有效吸引學生族群注意關注。因此，透過舉辦「設計人格｜IP 角色創作競賽」，不僅能補足品牌形象的缺口，也能以創意競賽的形式強化與潛在學生的連結，達成教育推廣與品牌塑造的目標。</p>
+                        </div>
+                    </section>
+
+                    <!-- 2. 五大設計人格 -->
+                    <section id="personas" class="content-section card-panel">
+                        <h2 class="section-title"><i data-lucide="sparkles" class="title-icon"></i>五大設計人格方向</h2>
+                        <div class="section-body">
+                            <p class="intro-desc">本次「設計人格」主題以將角色外型設計元素人格化為核心概念，透過 IP 角色設計創造能代表朝陽視傳系特色與設計精神的原創角色。參賽者可自以下五種設計人格設計方向延伸發想，融合設計元素與角色個性設定，將視覺設計中常見的元素、工具與創作概念轉化為具有個性與故事性的角色形象：</p>
+                            
+                            <!-- Mascot Display Image -->
+                            <div class="mascot-img-container">
+                                <img src="assets/design_mascots.png" alt="設計人格 IP 角色意象圖" class="mascot-img">
+                                <span class="image-caption">五大設計人格角色概念發想</span>
+                            </div>
+
+                            <!-- Personas Cards Grid -->
+                            <div class="personas-grid">
+                                
+                                <!-- Card 1 -->
+                                <div class="persona-card card-grid-1" data-persona="1">
+                                    <div class="persona-card-inner">
+                                        <div class="persona-card-front">
+                                            <div class="persona-badge">1</div>
+                                            <h4 class="persona-name">「格哥」</h4>
+                                            <p class="persona-role">排版與版面設計之神</p>
+                                            <div class="persona-tag">高級編輯感 / 完美主義</div>
+                                            <div class="click-hint"><i data-lucide="rotate-3d"></i> 點擊翻轉看細節</div>
+                                        </div>
+                                        <div class="persona-card-back">
+                                            <h4>「格哥」設定細節</h4>
+                                            <ul>
+                                                <li><strong>個性設定</strong>：有條理、追求完美，習慣把所有事情安排得井然有序。</li>
+                                                <li><strong>視覺元素</strong>：融入網格線 (Grid)、字體結構、幾何切割與留白元素。</li>
+                                                <li><strong>風格印象</strong>：整體風格簡潔俐落，帶有高級編輯感。</li>
+                                            </ul>
+                                            <button class="btn-card-close">返回</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Card 2 -->
+                                <div class="persona-card card-grid-2" data-persona="2">
+                                    <div class="persona-card-inner">
+                                        <div class="persona-card-front">
+                                            <div class="persona-badge">2</div>
+                                            <h4 class="persona-name">「彩洸」</h4>
+                                            <p class="persona-role">色彩與創意能量化身</p>
+                                            <div class="persona-tag">潮流感 / 活潑奔放</div>
+                                            <div class="click-hint"><i data-lucide="rotate-3d"></i> 點擊翻轉看細節</div>
+                                        </div>
+                                        <div class="persona-card-back">
+                                            <h4>「彩洸」設定細節</h4>
+                                            <ul>
+                                                <li><strong>個性設定</strong>：外向活潑、情緒豐富，喜歡嘗試各種衝突風格與配色。</li>
+                                                <li><strong>視覺元素</strong>：結合漸層色、標準色票、螢光色、街頭噴漆感。</li>
+                                                <li><strong>風格印象</strong>：展現極高辨識度與前衛潮流感。</li>
+                                            </ul>
+                                            <button class="btn-card-close">返回</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Card 3 -->
+                                <div class="persona-card card-grid-3" data-persona="3">
+                                    <div class="persona-card-inner">
+                                        <div class="persona-card-front">
+                                            <div class="persona-badge">3</div>
+                                            <h4 class="persona-name">「像點」</h4>
+                                            <p class="persona-role">數位設計與影像創作</p>
+                                            <div class="persona-tag">科技未來 / 敏銳觀察</div>
+                                            <div class="click-hint"><i data-lucide="rotate-3d"></i> 點擊翻轉看細節</div>
+                                        </div>
+                                        <div class="persona-card-back">
+                                            <h4>「像點」設定細節</h4>
+                                            <ul>
+                                                <li><strong>個性設定</strong>：安靜內向、觀察力極其敏銳，擅長攝影、剪輯。</li>
+                                                <li><strong>視覺元素</strong>：結合像素 (Pixel)、故障風 (Glitch)、錄影介面與 UI 元素。</li>
+                                                <li><strong>風格印象</strong>：呈現強烈數位科技感與未來主義。</li>
+                                            </ul>
+                                            <button class="btn-card-close">返回</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Card 4 -->
+                                <div class="persona-card card-grid-4" data-persona="4">
+                                    <div class="persona-card-inner">
+                                        <div class="persona-card-front">
+                                            <div class="persona-badge">4</div>
+                                            <h4 class="persona-name">「尺原」</h4>
+                                            <p class="persona-role">設計工具與手作執行</p>
+                                            <div class="persona-tag">工藝感 / 設計職人</div>
+                                            <div class="click-hint"><i data-lucide="rotate-3d"></i> 點擊翻轉看細節</div>
+                                        </div>
+                                        <div class="persona-card-back">
+                                            <h4>「尺原」設定細節</h4>
+                                            <ul>
+                                                <li><strong>個性設定</strong>：認真執著、行動力強，對細節與實作手感要求完美。</li>
+                                                <li><strong>視覺元素</strong>：融合尺規、裁切線、畫筆、美工刀具與繪圖板。</li>
+                                                <li><strong>風格印象</strong>：呈現濃厚的實作工藝感與職人氣息。</li>
+                                            </ul>
+                                            <button class="btn-card-close">返回</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Card 5 -->
+                                <div class="persona-card card-grid-5" data-persona="5">
+                                    <div class="persona-card-inner">
+                                        <div class="persona-card-front">
+                                            <div class="persona-badge">5</div>
+                                            <h4 class="persona-name">「稿夜」</h4>
+                                            <p class="persona-role">熬夜趕稿文化的靈魂</p>
+                                            <div class="persona-tag">頹廢可靠 / 視傳日常</div>
+                                            <div class="click-hint"><i data-lucide="rotate-3d"></i> 點擊翻轉看細節</div>
+                                        </div>
+                                        <div class="persona-card-back">
+                                            <h4>「稿夜」設定細節</h4>
+                                            <ul>
+                                                <li><strong>個性設定</strong>：看似頹廢黑眼圈，但實則非常可靠，經常抱著筆電出現。</li>
+                                                <li><strong>視覺元素</strong>：融入黑眼圈、咖啡、便利貼、軟體讀條、時間符號。</li>
+                                                <li><strong>風格印象</strong>：深刻反映設計系學生的創作日常與壓力寫照。</li>
+                                            </ul>
+                                            <button class="btn-card-close">返回</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- 3. 參賽辦法 -->
+                    <section id="rules" class="content-section card-panel">
+                        <h2 class="section-title"><i data-lucide="scroll" class="title-icon"></i>參賽辦法</h2>
+                        <div class="section-body">
+                            <h3>參賽資格</h3>
+                            <ul class="standard-list">
+                                <li>以全台<strong>高中職設計相關科系學生</strong>為主要參與對象。</li>
+                                <li><strong>全國大專院校生</strong>皆可參加，對角色設計、插畫創作與 IP 角色有興趣者皆可報名。</li>
+                            </ul>
+                            
+                            <h3>報名方式</h3>
+                            <ul class="standard-list">
+                                <li>本次競賽採<strong>線上報名與作品上傳</strong>方式進行，參賽者須於活動截止前完成資料填寫。</li>
+                                <li>以<strong>兩至三人為一組</strong>之團隊形式參賽，每組須共同完成<strong>五隻角色設計</strong>投稿，作為完整系列投稿，每組參賽團隊最多可投稿 5 組作品。</li>
+                                <li>投稿內容應包含：角色設計作品、角色名稱、角色設定以及創作理念說明，需依據五種角色設計人格方向進行發想。</li>
+                            </ul>
+
+                            <h3>作品規格</h3>
+                            <div class="spec-table-container">
+                                <table class="spec-table">
+                                    <tr>
+                                        <th>排版尺寸</th>
+                                        <td>A3尺寸（297 x 420 mm），五隻角色設計合成一張。</td>
+                                    </tr>
+                                    <tr>
+                                        <th>檔案格式</th>
+                                        <td>需提供 <strong>Adobe Illustrator (.ai) 原始檔</strong>，並附上 <strong>JPG 或 PNG 檔</strong>。</td>
+                                    </tr>
+                                    <tr>
+                                        <th>解析度</th>
+                                        <td>影像解析度須達 <strong>300dpi</strong>。</td>
+                                    </tr>
+                                    <tr>
+                                        <th>原創限制</th>
+                                        <td><span class="warning-highlight">競賽作品須為原創設計，禁止使用 AI 生成圖像工具進行角色創作。</span>若經查證抄襲、AI生成或侵權，將取消參賽資格。</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <h3>評分標準</h3>
+                            <div class="prizes-grid-visual">
+                                <div class="prize-visual-item">
+                                    <div class="pvi-percent">40%</div>
+                                    <div class="pvi-title">創意性</div>
+                                    <p class="pvi-desc">主要評估角色設定的原創性與概念發展完整度。</p>
+                                </div>
+                                <div class="prize-visual-item">
+                                    <div class="pvi-percent">30%</div>
+                                    <div class="pvi-title">主題符合度</div>
+                                    <p class="pvi-desc">檢視作品是否貼合「設計人格」主題核心與表現一致性。</p>
+                                </div>
+                                <div class="prize-visual-item">
+                                    <div class="pvi-percent">30%</div>
+                                    <div class="pvi-title">視覺美感與完整度</div>
+                                    <p class="pvi-desc">評估角色造型、色彩配置與整體視覺品質，及未來商品化潛力。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- 4. 大賽時程 -->
+                    <section id="timeline-sec" class="content-section card-panel">
+                        <h2 class="section-title"><i data-lucide="calendar" class="title-icon"></i>大賽時程</h2>
+                        <div class="section-body">
+                            <!-- Timeline Flow -->
+                            <div class="timeline-flow">
+                                <div class="timeline-step" data-step="1" data-start="2027-09-06" data-end="2027-10-30">
+                                    <div class="step-marker"><i data-lucide="edit-3"></i></div>
+                                    <div class="step-info">
+                                        <span class="step-date">2027.09.06 (一) ~ 10.30 (六)</span>
+                                        <h4>報名與徵件</h4>
+                                        <p>線上平台收件截止</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-step" data-step="2" data-start="2027-11-03" data-end="2027-11-03">
+                                    <div class="step-marker"><i data-lucide="bullhorn"></i></div>
+                                    <div class="step-info">
+                                        <span class="step-date">2027.11.03 (三)</span>
+                                        <h4>入選公布</h4>
+                                        <p>公布決選入圍名單</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-step" data-step="3" data-start="2027-11-03" data-end="2027-11-10">
+                                    <div class="step-marker"><i data-lucide="thumbs-up"></i></div>
+                                    <div class="step-info">
+                                        <span class="step-date">2027.11.03 (三) ~ 11.10 (三)</span>
+                                        <h4>網路人氣投票期</h4>
+                                        <p>開放大眾線上投票 (佔總分40%)</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-step" data-step="4" data-start="2027-11-15" data-end="2027-11-19">
+                                    <div class="step-marker"><i data-lucide="user-check"></i></div>
+                                    <div class="step-info">
+                                        <span class="step-date">2027.11.15 (一) ~ 11.19 (五)</span>
+                                        <h4>決選評審期</h4>
+                                        <p>專業評審團評分作業 (佔總分60%)</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-step" data-step="5" data-start="2027-11-22" data-end="2027-11-22">
+                                    <div class="step-marker"><i data-lucide="award"></i></div>
+                                    <div class="step-info">
+                                        <span class="step-date">2027.11.22 (一)</span>
+                                        <h4>得獎公布</h4>
+                                        <p>官方公告最終得獎名單</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-step" data-step="6" data-start="2027-12-13" data-end="2027-12-13">
+                                    <div class="step-marker"><i data-lucide="party-popper"></i></div>
+                                    <div class="step-info">
+                                        <span class="step-date">2027.12.13 (一) 13:00~16:00</span>
+                                        <h4>頒獎與成果展示</h4>
+                                        <p>朝陽科技大學校內實體展出與典禮</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- 5. 大賽獎項 -->
+                    <section id="prizes" class="content-section card-panel">
+                        <h2 class="section-title"><i data-lucide="trophy" class="title-icon"></i>大賽獎項</h2>
+                        <div class="section-body">
+                            <div class="prizes-container">
+                                
+                                <!-- Gold -->
+                                <div class="prize-card gold-rank">
+                                    <div class="prize-rank-badge">金獎</div>
+                                    <div class="prize-amount">NT$ 100,000</div>
+                                    <div class="prize-quota">名額 1 名</div>
+                                    <p class="prize-desc">獲得獎金新台幣 10 萬元及精美獎狀乙紙</p>
+                                </div>
+
+                                <!-- Silver -->
+                                <div class="prize-card silver-rank">
+                                    <div class="prize-rank-badge">銀獎</div>
+                                    <div class="prize-amount">NT$ 60,000</div>
+                                    <div class="prize-quota">名額 1 名</div>
+                                    <p class="prize-desc">獲得獎金新台幣 6 萬元及精美獎狀乙紙</p>
+                                </div>
+
+                                <!-- Bronze -->
+                                <div class="prize-card bronze-rank">
+                                    <div class="prize-rank-badge">銅獎</div>
+                                    <div class="prize-amount">NT$ 30,000</div>
+                                    <div class="prize-quota">名額 1 名</div>
+                                    <p class="prize-desc">獲得獎金新台幣 3 萬元及精美獎狀乙紙</p>
+                                </div>
+
+                                <!-- People's Choice -->
+                                <div class="prize-card people-rank">
+                                    <div class="prize-rank-badge">最佳人氣獎</div>
+                                    <div class="prize-amount">NT$ 10,000</div>
+                                    <div class="prize-quota">名額 10 名</div>
+                                    <p class="prize-desc">獲得獎金新台幣 1 萬元及精美獎狀乙紙</p>
+                                </div>
+
+                                <!-- Honorable Mention -->
+                                <div class="prize-card honorable-rank">
+                                    <div class="prize-rank-badge">佳作</div>
+                                    <div class="prize-amount">NT$ 2,000</div>
+                                    <div class="prize-quota">名額 20 名</div>
+                                    <p class="prize-desc">獲得獎金新台幣 2,000 元及精美獎狀乙紙</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- 6. 注意事項 -->
+                    <section id="rules-notes" class="content-section card-panel">
+                        <h2 class="section-title"><i data-lucide="alert-triangle" class="title-icon"></i>注意事項</h2>
+                        <div class="section-body notes-content">
+                            <ol class="standard-list">
+                                <li><strong>Hokii 帳戶開立規定</strong>：為利獎金發放作業順暢進行，凡報名本活動之參賽者，建議於報名前完成<strong>臺灣中小企業銀行 Hokii 數位存款帳戶</strong>之開立。得獎者之所有獎金將統一匯撥至得獎者之 Hokii 數位存款帳戶；如未完成開戶，主辦單位有權暫緩發放獎金。</li>
+                                <li><strong>稅法申報規定</strong>：依中華民國稅法規定，得獎者若為中華民國境內居住人，得獎金額超過 1,000 元者，需繳交身分證影本並計入個人所得；得獎金額 20,010 元（含）以上者，依法需先扣繳 10% 稅金。非境內居住者一律扣繳 20% 稅金。</li>
+                                <li><strong>作品格式原始檔</strong>：參賽者需保留作品格式之原始檔案 (Illustrator .ai)。得獎者須於得獎名單公布後，提供作品原始檔案予主辦單位，若無法提供，主辦單位有權取消得獎資格。</li>
+                                <li><strong>原創性擔保</strong>：參賽作品必須為參賽者原創，且無侵害他人商標權、著作權等智慧財產權，並明確禁止使用 AI 生成圖像工具。如有侵權情事，參賽者自負相關民刑事責任。</li>
+                                <li><strong>著作財產權授權</strong>：得獎作品之著作人格權歸屬參賽者，惟參賽者同意將著作財產權永久無償授權主辦單位進行任何商業或非商業宣傳、重製、散布、改作與公開展示使用。</li>
+                            </ol>
+                        </div>
+                    </section>
+
+                    <!-- 7. 互動與報名區 -->
+                    <section id="register-vote" class="content-section card-panel border-neon-pink">
+                        <h2 class="section-title text-neon-pink"><i data-lucide="check-square" class="title-icon"></i>大賽互動與模擬報名專區</h2>
+                        <div class="section-body">
+                            
+                            <!-- 互動分頁 Tab 選單 -->
+                            <div class="interact-tabs">
+                                <button class="interact-tab-btn active" data-target="calc-panel">資格與獎金試算</button>
+                                <button class="interact-tab-btn" data-target="vote-panel">人氣設計人格投票</button>
+                                <button class="interact-tab-btn" data-target="form-panel">模擬報名投稿</button>
+                            </div>
+
+                            <!-- 互動內容面板 1: 試算器 -->
+                            <div id="calc-panel" class="interact-panel active">
+                                <h4>大賽資格與預估獎金試算</h4>
+                                <p class="panel-intro">輸入您的隊伍人數與預估投稿組數，系統將依據企劃書規則即時為您試算參賽資格，並試算可能獲得的最高團隊總獎勵！</p>
+                                
+                                <div class="form-group">
+                                    <label for="team-size">團隊組隊人數：</label>
+                                    <div class="input-number-wrapper">
+                                        <input type="number" id="team-size" value="2" min="1" max="10">
+                                        <span class="input-unit">人</span>
+                                    </div>
+                                    <span class="form-hint">（規則：每組需 2 至 3 人參賽）</span>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="submission-count">預計投稿作品組數（每組含5隻人格角色）：</label>
+                                    <div class="input-number-wrapper">
+                                        <input type="number" id="submission-count" value="1" min="1" max="10">
+                                        <span class="input-unit">組</span>
+                                    </div>
+                                    <span class="form-hint">（規則：每組參賽團隊最多可投稿 5 組作品）</span>
+                                </div>
+
+                                <button type="button" id="btn-calc" class="btn-interact-action">開始評估試算</button>
+
+                                <div id="calc-result" class="result-box hide">
+                                    <div class="result-status">
+                                        <span class="result-label">參賽資格審查：</span>
+                                        <span id="qualify-badge" class="badge">符合資格</span>
+                                    </div>
+                                    <p id="qualify-text" class="result-text"></p>
+                                    <div class="reward-estimate">
+                                        <span class="reward-title">團隊可能爭取的最大獎金上限：</span>
+                                        <span id="max-reward-text" class="reward-val">NT$ 100,000</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 互動內容面板 2: 模擬投票 -->
+                            <div id="vote-panel" class="interact-panel">
+                                <h4>最符合你的「設計人格」人氣打氣區</h4>
+                                <p class="panel-intro">你最喜歡哪一種設計人格？或是你覺得自己最像哪一種？投下你的支持票，即可即時看到大家投出來的人氣百分比！(每人限投一次)</p>
+                                
+                                <div class="voting-list">
+                                    
+                                    <!-- Person 1 -->
+                                    <div class="vote-item" data-id="1">
+                                        <div class="vote-info">
+                                            <span class="vote-name">格哥 (版面排版)</span>
+                                            <span class="vote-count" id="count-1">324 票</span>
+                                        </div>
+                                        <div class="vote-progress-bar-bg">
+                                            <div class="vote-progress-bar" id="bar-1" style="width: 20%;"></div>
+                                        </div>
+                                        <button class="btn-vote" data-id="1">為格哥打氣</button>
+                                    </div>
+
+                                    <!-- Person 2 -->
+                                    <div class="vote-item" data-id="2">
+                                        <div class="vote-info">
+                                            <span class="vote-name">彩洸 (色彩潮流)</span>
+                                            <span class="vote-count" id="count-2">485 票</span>
+                                        </div>
+                                        <div class="vote-progress-bar-bg">
+                                            <div class="vote-progress-bar" id="bar-2" style="width: 30%;"></div>
+                                        </div>
+                                        <button class="btn-vote" data-id="2">為彩洸打氣</button>
+                                    </div>
+
+                                    <!-- Person 3 -->
+                                    <div class="vote-item" data-id="3">
+                                        <div class="vote-info">
+                                            <span class="vote-name">像點 (數位科技)</span>
+                                            <span class="vote-count" id="count-3">291 票</span>
+                                        </div>
+                                        <div class="vote-progress-bar-bg">
+                                            <div class="vote-progress-bar" id="bar-3" style="width: 18%;"></div>
+                                        </div>
+                                        <button class="btn-vote" data-id="3">為像點打氣</button>
+                                    </div>
+
+                                    <!-- Person 4 -->
+                                    <div class="vote-item" data-id="4">
+                                        <div class="vote-info">
+                                            <span class="vote-name">尺原 (實作工藝)</span>
+                                            <span class="vote-count" id="count-4">198 票</span>
+                                        </div>
+                                        <div class="vote-progress-bar-bg">
+                                            <div class="vote-progress-bar" id="bar-4" style="width: 12%;"></div>
+                                        </div>
+                                        <button class="btn-vote" data-id="4">為尺原打氣</button>
+                                    </div>
+
+                                    <!-- Person 5 -->
+                                    <div class="vote-item" data-id="5">
+                                        <div class="vote-info">
+                                            <span class="vote-name">稿夜 (熬夜趕稿)</span>
+                                            <span class="vote-count" id="count-5">356 票</span>
+                                        </div>
+                                        <div class="vote-progress-bar-bg">
+                                            <div class="vote-progress-bar" id="bar-5" style="width: 20%;"></div>
+                                        </div>
+                                        <button class="btn-vote" data-id="5">為稿夜打氣</button>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!-- 互動內容面板 3: 模擬報名表單 -->
+                            <div id="form-panel" class="interact-panel">
+                                <h4>模擬線上報名與作品投稿系統</h4>
+                                <p class="panel-intro">此為競賽報名模擬系統。請填寫您的參賽資訊並上傳檔案（支援 .ai, .jpg, .png），即可模擬完成報名手續，測試表單防呆驗證！</p>
+                                
+                                <form id="mock-register-form" novalidate>
+                                    <div class="form-group">
+                                        <label for="team-name" class="required-field">參賽隊伍名稱：</label>
+                                        <input type="text" id="team-name" placeholder="請輸入您的潮流隊伍名稱">
+                                        <span class="error-msg" id="err-team-name">請填寫隊伍名稱</span>
+                                    </div>
+
+                                    <div class="form-row-2">
+                                        <div class="form-group">
+                                            <label for="member-leader" class="required-field">隊長姓名：</label>
+                                            <input type="text" id="member-leader" placeholder="隊長姓名">
+                                            <span class="error-msg" id="err-leader">請填寫隊長姓名</span>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="leader-phone" class="required-field">聯絡電話：</label>
+                                            <input type="tel" id="leader-phone" placeholder="格式如 0912345678">
+                                            <span class="error-msg" id="err-phone">請輸入正確的電話號碼</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-row-2">
+                                        <div class="form-group">
+                                            <label for="leader-email" class="required-field">聯絡 Email：</label>
+                                            <input type="email" id="leader-email" placeholder="example@mail.com">
+                                            <span class="error-msg" id="err-email">請輸入合法的 Email 信箱</span>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="school-name" class="required-field">就讀學校/科系：</label>
+                                            <input type="text" id="school-name" placeholder="例如：朝陽科技大學 視覺傳達設計系">
+                                            <span class="error-msg" id="err-school">請填寫學校科系</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="member-2">隊員二姓名（選填）：</label>
+                                        <input type="text" id="member-2" placeholder="第二位隊員姓名（若有）">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="member-3">隊員三姓名（選填）：</label>
+                                        <input type="text" id="member-3" placeholder="第三位隊員姓名（若有）">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="required-field">上傳 A3 五隻角色設計圖檔 (JPG/PNG，限 300dpi)：</label>
+                                        <div class="file-upload-area" id="drop-zone-img">
+                                            <i data-lucide="image" class="upload-icon"></i>
+                                            <p>拖曳圖檔至此或 <span>瀏覽檔案</span></p>
+                                            <input type="file" id="file-img" accept="image/jpeg,image/png" class="hide">
+                                            <span class="file-name-display" id="file-name-img">未選取檔案</span>
+                                        </div>
+                                        <span class="error-msg" id="err-file-img">請上傳作品圖檔</span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="required-field">上傳 Adobe Illustrator 原始設計檔 (.ai)：</label>
+                                        <div class="file-upload-area" id="drop-zone-ai">
+                                            <i data-lucide="file-code" class="upload-icon"></i>
+                                            <p>拖曳 .ai 原始檔至此或 <span>瀏覽檔案</span></p>
+                                            <input type="file" id="file-ai" accept=".ai" class="hide">
+                                            <span class="file-name-display" id="file-name-ai">未選取檔案</span>
+                                        </div>
+                                        <span class="error-msg" id="err-file-ai">請上傳 Illustrator 原始檔</span>
+                                    </div>
+
+                                    <div class="form-group checkbox-group">
+                                        <input type="checkbox" id="agreement">
+                                        <label for="agreement" class="checkbox-label required-field">我已閱讀並同意本大賽注意事項，並保證本作品為無 AI 參與之原創設計。</label>
+                                        <span class="error-msg" id="err-agreement">您必須同意此項聲明才能參賽</span>
+                                    </div>
+
+                                    <button type="submit" id="btn-submit-form" class="btn-submit-action">確認送出報名</button>
+                                </form>
+
+                                <div id="form-success-box" class="form-success-box hide">
+                                    <i data-lucide="check-circle" class="success-icon"></i>
+                                    <h4>恭喜您！模擬報名成功！</h4>
+                                    <p>您的報名資料已成功通過前台邏輯驗證。這代表您的隊伍在真實報名系統中已具備參賽資格。期待您的創意大放異彩！</p>
+                                    <button type="button" id="btn-reset-form" class="btn-reset-form">再次測試報名</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+                </div>
+            </main>
+
+            <!-- 右側側邊欄 Right Column (Sticky) -->
+            <aside class="right-column" id="sticky-sidebar">
+                
+                <!-- 1. 倒數計時卡片 -->
+                <div class="sidebar-card countdown-card border-neon-yellow">
+                    <h4 class="card-subtitle"><i data-lucide="clock" class="card-icon"></i> 距離投稿截止剩餘</h4>
+                    <div class="countdown-timer" id="countdown-timer">
+                        <div class="time-block">
+                            <span id="days" class="time-val">00</span>
+                            <span class="time-label">天</span>
+                        </div>
+                        <div class="time-block">
+                            <span id="hours" class="time-val">00</span>
+                            <span class="time-label">時</span>
+                        </div>
+                        <div class="time-block">
+                            <span id="minutes" class="time-val">00</span>
+                            <span class="time-label">分</span>
+                        </div>
+                        <div class="time-block">
+                            <span id="seconds" class="time-val">00</span>
+                            <span class="time-label">秒</span>
+                        </div>
+                    </div>
+                    <div class="deadline-date">
+                        截止日期：<strong>2027 年 10 月 30 日 (六) 23:59</strong>
+                    </div>
+                </div>
+
+                <!-- 2. 大賽摘要快速卡片 -->
+                <div class="sidebar-card info-card">
+                    <div class="prize-summary">
+                        <span class="prize-summary-lbl">最高首獎獎金</span>
+                        <h3 class="prize-summary-val">NT$ 100,000</h3>
+                    </div>
+                    <hr class="card-hr">
+                    <ul class="quick-info-list">
+                        <li>
+                            <span class="qi-lbl">主辦單位</span>
+                            <span class="qi-val">朝陽科技大學</span>
+                        </li>
+                        <li>
+                            <span class="qi-lbl">承辦單位</span>
+                            <span class="qi-val">視覺傳達設計系</span>
+                        </li>
+                        <li>
+                            <span class="qi-lbl">徵件對象</span>
+                            <span class="qi-val">全台大專與高中職生</span>
+                        </li>
+                        <li>
+                            <span class="qi-lbl">投稿限制</span>
+                            <span class="qi-val">2~3人組隊 (限原創)</span>
+                        </li>
+                        <li>
+                            <span class="qi-lbl">主辦信箱</span>
+                            <span class="qi-val">cyutvcd@cyut.edu.tw</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 3. 行動呼籲主按鈕 -->
+                <div class="sidebar-actions">
+                    <a href="#register-vote" class="btn-sidebar-primary" id="btn-sidebar-enroll">
+                        <i data-lucide="edit-3"></i> 馬上報名投稿
+                    </a>
+                    <a href="#register-vote" class="btn-sidebar-secondary" id="btn-sidebar-vote">
+                        <i data-lucide="thumbs-up"></i> 參與人氣投票
+                    </a>
+                </div>
+
+                <!-- 4. 分享小工具 -->
+                <div class="sidebar-card share-card">
+                    <span class="share-lbl">分享本比賽資訊</span>
+                    <div class="share-btn-group">
+                        <button class="btn-share fb" id="share-fb" title="分享至 Facebook"><i data-lucide="facebook"></i></button>
+                        <button class="btn-share line" id="share-line" title="分享至 LINE"><span>LINE</span></button>
+                        <button class="btn-share link" id="share-link" title="複製網頁連結"><i data-lucide="copy"></i></button>
+                    </div>
+                </div>
+
+            </aside>
+        </div>
+    </div>
+
+    <!-- 手機版底部固定快捷條 (Mobile Sticky Bottom Bar) -->
+    <div class="mobile-bottom-bar">
+        <div class="mbb-container">
+            <div class="mbb-info">
+                <span class="mbb-lbl">距離截止剩</span>
+                <span id="mbb-countdown" class="mbb-val">00天 00:00:00</span>
+            </div>
+            <a href="#register-vote" class="mbb-btn-enroll">馬上報名</a>
+        </div>
+    </div>
+
+    <!-- 頁尾 Footer -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-branding">
+                <h4>朝陽科技大學 視覺傳達設計系</h4>
+                <p>DEPARTMENT OF VISUAL COMMUNICATION DESIGN, CYUT</p>
+            </div>
+            <div class="footer-contacts">
+                <p>地址：413310 台中市霧峰區吉峰東路168號 (設計大樓四樓)</p>
+                <p>電話：04-2332-3000 轉分機 7182 ~ 7185</p>
+                <p>信箱：cyutvcd@cyut.edu.tw</p>
+            </div>
+            <div class="footer-copyright">
+                <p>本網站為競賽企劃模擬系統展示網站 © 2026 CYUT VCD. All Rights Reserved. Layout inspired by Bhuntr.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Bundle -->
+    <script src="app.js"></script>
+</body>
+</html>
